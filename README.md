@@ -1,73 +1,56 @@
-# Welcome to your Lovable project
+# ⚖️ BMI Calculator – Body Mass Index & Body Fat Tracker
 
-## Project info
+**BMI Calculator** is a free Android app that helps you monitor your **Body Mass Index (BMI)**, **body fat percentage**, and **ideal weight**.  
+It uses scientifically backed formulas to provide accurate health metrics based on your gender, age, height, and weight.
 
-**URL**: https://lovable.dev/projects/8a628301-2c9a-4a6f-8582-bcb6c7c65890
+Stay healthy and informed with instant calculations and a clean, user-friendly interface.  
+Supports both **Metric** and **Imperial** units.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 📱 Features
 
-**Use Lovable**
+- ✅ **BMI Calculation** – Based on standard BMI formula  
+- 🎯 **Ideal Weight** – Estimated using the **D. R. Miller** formula  
+- 💪 **Body Fat % Estimation** – Calculated using the **Deurenberg** formula  
+- ⚙️ **Metric & Imperial Units** – Supports cm/kg and ft/in/lbs  
+- 🔢 **Input Parameters** – Gender, age, height, and weight  
+- 📊 **Result Categories** – Underweight, Normal, Overweight, Obese  
+- 🌗 **Dark Mode & Light Mode**  
+- 🔐 **Offline Use** – No internet required, data never leaves your device  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8a628301-2c9a-4a6f-8582-bcb6c7c65890) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧮 Formulas Used
 
-**Use your preferred IDE**
+### 🔸 BMI
+BMI = weight (kg) / (height (m))²
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🔸 Ideal Weight (D. R. Miller)
+- Men: `56.2 + 1.41 × (height in cm − 152.4)`
+- Women: `53.1 + 1.36 × (height in cm − 152.4)`
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🔸 Body Fat % (Deurenberg)
+Body Fat % = 1.20 × BMI + 0.23 × Age − 10.8 × Gender − 5.4
+(Gender = 1 for male, 0 for female)
 
-Follow these steps:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🧑‍⚕️ Use Cases
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Track personal fitness goals  
+- Estimate body fat during workouts or diet  
+- Get quick health metrics without internet access  
+- Help clients monitor progress (for trainers/dieticians)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+🙌 Contributions
+Pull requests, suggestions, and bug reports are welcome!
+Feel free to open an issue or submit a PR.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+👤 Author
+Sultan Abubakar
+📧 sultan99nagori@gmail.com
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/8a628301-2c9a-4a6f-8582-bcb6c7c65890) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
